@@ -3,7 +3,7 @@ use bookmarks;
 
 create table user  (
   username varchar(16) primary key,
-  passwd char(40) not null,
+  password char(40) not null,
   email varchar(100) not null
 );
 
